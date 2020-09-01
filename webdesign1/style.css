@@ -1,0 +1,180 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	
+}
+
+.container{
+	height:100vh;
+	width:100%;
+	position:relative;
+}
+.bgimg{
+ background:#1A1A1A;
+  background-size: cover;
+}
+.navbar{
+	width:100%;
+	height:15%;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+	margin:auto;
+	box-shadow: 2px 2px;
+}
+.logo img{
+	width:50px;
+	cursor: pointer;
+	margin: 35px 0;
+}
+nav ul li{
+	list-style: none;
+	display:inline-block;
+	margin-right:30px;
+}
+nav ul li a{
+text-decoration:none;
+color:#999;
+font-size: 12px;
+padding:5px 2px;
+}
+nav ul li a:hover{
+color:#fff;
+border-bottom: 3px solid #F78800;
+}
+.content-row{
+	width:85%;
+	display:cover;
+	
+	margin:auto;
+}
+.left-col .right-col{
+	width:50%;
+}
+.left-col{
+	padding:50px 0;
+}
+.search{
+	width:260px;
+	display:flex;
+	align-items:center;
+	padding:8px 15px;
+	box-sizing: border-box;
+	border:1px solid #F78800;
+	border-radius:20px;
+}
+.search img{
+	height:16px;
+	margin-right:10px;
+	cursor:pointer;
+	
+	}
+.search input{
+	width:100%;
+	color:#999;
+	background:transparent;
+	font-size:14px;
+	outline: none;
+	border:none;
+}	
+hr{
+	width:250px;
+	height: 4px;
+	background:#F78800;
+	margin:30px 0;
+	border:none;
+}
+ h1{
+color:#F78800;
+width:50%;
+
+}
+p{
+color:#F78800;
+width:50%;
+}
+.indicator{
+	display:flex;
+}
+span{
+	width:5px;
+	height:5px;
+	border:1px solid #F78800;
+	border-radius:50px;
+	margin-right:5px;
+}
+.active{
+	background:#F78800;
+
+}
+.right-col img{
+	position:absolute;
+	top:40%;
+	bottom:0%;
+	right:3%;
+	width:40%;
+	float:right;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 5px;
+  height:5px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  opacity: 0.7;
+  align:center;
+}
+
+.fa-facebook {
+  background: #F78800;
+  color: white;
+  }
+.fa-facebook:hover {
+  
+	 background: #3B5998;
+}
+.fa-twitter {
+  background: #F78800;
+  color: white;
+}
+.fa-twitter:hover {
+  
+	 background: #55ACEE;
+}
+
+.fa-google {
+  background:#F78800;
+  color: white;
+}
+.fa-google:hover {
+  
+	 background: #dd4b39;
+}
+.fa-instagram {
+  background: #F78800;
+  color: white;
+}
+.fa-instagram:hover {
+  
+	 background: #125688;
+}
+.center {
+position:absolute;
+left:43%;
+}
+.footer{
+
+text-align:center;
+position:absolute;
+left:35%;
+top:120%;
+
+}
+#contact{
+}
+/////////team//////////
+
